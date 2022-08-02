@@ -1,0 +1,48 @@
+.main
+    padding-left: 16px
+    padding-right: 16px
+    &-wrap
+        z-index: -1
+        display: flex
+        text-align: center
+        align-content: center
+        align-items: center
+        position: relative
+        padding-top: 200px
+        padding-bottom: 350px
+        justify-content: center
+    &-title
+        font-size: 130px
+        font-weight: 700
+        line-height: 210px
+        align-items: center
+        -webkit-text-stroke: 1px #3EEFA1
+        color: rgba(62, 239, 161, 0)
+        opacity: 20%
+        text-align: center
+        z-index: 2
+    &-img
+        max-width: 506px
+        z-index: 5
+        position: absolute
+        top: 131px
+
+
+
+@media (max-width: 768px)
+    .main
+        &-wrap
+            padding-bottom: 350px
+        &-title
+            font-size: 90px
+
+
+
+@media (max-width: 425px)
+    .main
+        &-wrap
+            padding-bottom: 280px
+        &-title
+            display: none
+        &-img
+            width: 280px
