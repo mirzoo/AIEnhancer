@@ -879,4 +879,65 @@ template {
     z-index: 5;
   }
 }
+
+.privacy {
+  padding: 0px 16px;
+}
+
+.privacy-wrap {
+  padding-top: 150px;
+}
+
+.privacy-title {
+  color: #3EEFA1;
+  text-align: center;
+}
+
+.privacy-info {
+  margin-top: 50px;
+}
+
+.privacy-info__title {
+  margin-top: 50px;
+  color: #3EEFA1;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.privacy-info__subtitle {
+  margin-top: 16px;
+  color: #8C8C8C;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+.terms {
+  padding: 0px 16px;
+}
+
+.terms-wrap {
+  padding-top: 150px;
+}
+
+.terms-title {
+  color: #3EEFA1;
+  text-align: center;
+}
+
+.terms-list {
+  margin-top: 50px;
+}
+
+.terms-list__subtitle {
+  margin-top: 16px;
+  color: #8C8C8C;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+.terms-list__subtitle::marker {
+  color: #3EEFA1;
+}
 /*# sourceMappingURL=style.css.map */
