@@ -11,6 +11,19 @@
         padding-top: 200px
         padding-bottom: 350px
         justify-content: center
+        &::before
+            content: ''
+            position: absolute
+            top: 30%
+            left: 35%
+            right: 50%
+            bottom: 50%
+            width: 332px
+            height: 332px
+            background-color: #3EEFA1
+            border-radius: 200px
+            opacity: 0.2
+            filter: blur(200px)
     &-title
         font-size: 130px
         font-weight: 700
@@ -26,13 +39,15 @@
         z-index: 5
         position: absolute
         top: 131px
-        &
 
 
 @media (max-width: 768px)
     .main
         &-wrap
             padding-bottom: 350px
+            &::before
+                width: 200px
+                height: 200px
         &-title
             font-size: 90px
 
@@ -42,6 +57,9 @@
     .main
         &-wrap
             padding-bottom: 280px
+            &::before
+                width: 150px
+                height: 150px
         &-title
             display: none
         &-img
